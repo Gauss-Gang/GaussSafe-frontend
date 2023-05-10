@@ -30,6 +30,5 @@ export const makeLoadableSlice = <N extends string, T>(name: N, data: T) => {
   return {
     slice,
     selector,
-    initialState
   }
 }

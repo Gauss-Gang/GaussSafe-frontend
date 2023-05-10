@@ -24,7 +24,6 @@ import { settingsSlice } from './settingsSlice'
 import { cookiesSlice } from './cookiesSlice'
 import { popupSlice } from './popupSlice'
 import { spendingLimitSlice } from './spendingLimitsSlice'
-import { chainsWrapperSlice } from './chainsSlice'; 
 import { safeAppsSlice } from './safeAppsSlice'
 import { safeMessagesMiddleware, safeMessagesSlice } from './safeMessagesSlice'
 import { pendingSafeMessagesSlice } from './pendingSafeMessagesSlice'
@@ -32,7 +31,6 @@ import { pendingSafeMessagesSlice } from './pendingSafeMessagesSlice'
 const rootReducer = combineReducers({
   [chainsSlice.name]: chainsSlice.reducer,
   [safeInfoSlice.name]: safeInfoSlice.reducer,
-  [chainsWrapperSlice.name]: chainsWrapperSlice.reducer,
   [balancesSlice.name]: balancesSlice.reducer,
   [sessionSlice.name]: sessionSlice.reducer,
   [txHistorySlice.name]: txHistorySlice.reducer,

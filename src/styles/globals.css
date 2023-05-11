@@ -374,11 +374,11 @@ body.beamerAnnouncementBarTopActive {
 .mui-style-1ljjage:hover {
   background-color: #b52520 !important;
 }
-button.wallet-button-styling.svelte-paavcp:hover {
+.wallet-button-styling.svelte-paavcp:hover button {
   background-color:  rgba(203, 84, 36, 0.1) !important;
   border-color:  #cb5424 !important;
 }
-button.connected.svelte-paavcp {
+.connected.svelte-paavcp button {
   border-color: #cb5424 !important;
 }
 .mui-style-1iilbmq {
@@ -506,9 +506,6 @@ button.connected.svelte-paavcp {
 .mui-style-1lcepaa .MuiSvgIcon-root {
   fill: #cb5424 !important;
 }
-.mui-style-1jtcxoj:hover {
-  background-color: rgba(203, 84, 36, 0.1) !important;
-}
 .mui-style-mv5nxv {
   color: #cb5424 !important;
   fill: #cb5424 !important;
@@ -529,4 +526,27 @@ button.connected.svelte-paavcp {
 }
 .styles_logo__Oax41 svg {
   height: 40px !important;
+}
+.css-1dw6z1y{
+  color: #cb5424 !important;
+}
+.mui-style-1qngpi1 {
+  color: #cb5424 !important;
+  text-decoration-color: #cb5424 !important;
+}
+.mui-style-1qngpi1:hover {
+  text-decoration-color: rgba(203, 84, 36, 0.1) !important;
+}
+.mui-style-fi42zs {
+  color: #cb5424 !important;
+  text-decoration-color: #cb5424 !important;
+}
+.mui-style-fi42zs:hover {
+  text-decoration-color: rgba(203, 84, 36, 0.1) !important;
+}
+.mui-style-1cgirpx.Mui-expanded > .MuiAccordionSummary-root {
+  background-color: rgba(203, 84, 36, 0.1) !important;
+}
+.mui-style-1cgirpx.Mui-expanded {
+  border-color: #cb5424 !important;
 }

@@ -48,16 +48,16 @@
 
   --onboard-connect-sidebar-color: var(--color-text-primary);
   --onboard-wallet-button-color: var(--color-text-primary);
-  --onboard-wallet-app-icon-border-color: var(--color-border-light);
+  --onboard-wallet-app-icon-border-color: #652a12 !important;
   --onboard-wallet-app-icon-background-white: #fff;
   --onboard-wallet-app-icon-background-transparent: #fff;
   --onboard-wallet-app-icon-background-light-gray: rgba(255, 255, 255, 0.5);
-  --onboard-wallet-button-border-color: var(--color-border-light);
+  --onboard-wallet-button-border-color: #652a12 !important;
   --onboard-wallet-button-border-radius: 8px;
-  --onboard-wallet-button-background-hover: var(--color-background-light);
-  --onboard-wallet-button-background-active: var(--color-background-light);
+  --onboard-wallet-button-background-hover: #652a12 !important;
+  --onboard-wallet-button-background-active: #652a12 !important;
   /* Needs to be brighter than var(--color-primary-main) to compensate for shadow blur */
-  --onboard-wallet-button-box-shadow-hover: 0 0 2px #00fd00;
+  --onboard-wallet-button-box-shadow-hover: 0 0 2px #652a12 !important;
 
   /* Fonts */
   --onboard-font-family-normal: DM Sans, sans-serif;
